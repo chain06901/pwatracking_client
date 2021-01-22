@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "THSarabunNew";
+  src: url("../fonts/thsarabunnew-webfont.eot");
+  src: url("../fonts/thsarabunnew-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/thsarabunnew-webfont.woff") format("woff"),
+    url("../fonts/thsarabunnew-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "THSarabunNew", sans-serif;
+}
+
+.menudashboard:hover {
+  box-shadow: 0 0 6px rgb(35 173 255);
+}
+.showtable {
+  min-height: 420px !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 100%;
+}
+
+.parentDisable{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(248, 248, 248, 0.5);
+  z-index: 8888888;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-box {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  z-index: 9999999;
+}
+.react-bootstrap-table-pagination {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pagination .react-bootstrap-table-page-btns-ul { float: right !important; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 0.5s infinite linear !important;
+  animation: fa-spin 0.5s infinite linear !important;
+ }
